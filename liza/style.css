@@ -1,0 +1,59 @@
+body{
+    background-color:#B19470;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: scroll;
+}
+
+.container-fluid{
+
+    font-size: 20px;
+    padding-top: 30px;
+    
+}
+
+nav{
+    background-color: #3E3232;
+}
+
+.navbar-brand{
+    font-size: 25px;
+}
+
+.nav-link{
+    
+}
+
+.section{
+    margin: 150px;
+    
+}
+
+.col{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.nav-link{
+    color: white;
+}
+
+ .activee{
+    background-color: red;
+}
+
+
+.nav-link:hover {
+    background-color: brown;
+    color: green; /* Optional: Change text color when hovered */
+}
+
+.navbar-brand{
+    color: white;
+}
